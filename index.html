@@ -27,20 +27,22 @@
         <h2>Projects</h2>
         <div class="project">
             <h3>Project Title 1</h3>
+            <img src="project1.jpg" alt="Project 1" onclick="openLightbox('project1.jpg')">
             <p>Description of your project.</p>
-            <a href="#">View Project</a>
+            <a href="#" target="_blank">View Project</a>
         </div>
         <div class="project">
             <h3>Project Title 2</h3>
+            <img src="project2.jpg" alt="Project 2" onclick="openLightbox('project2.jpg')">
             <p>Description of your project.</p>
-            <a href="#">View Project</a>
+            <a href="#" target="_blank">View Project</a>
         </div>
         <!-- Add more projects as needed -->
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <form>
+        <form id="contactForm">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
@@ -49,10 +51,17 @@
             <textarea id="message" name="message" required></textarea>
             <button type="submit">Send</button>
         </form>
+        <p id="formResponse"></p>
     </section>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <img id="lightboxImage" src="" alt="Lightbox Image">
+    </div>
 
     <footer>
         <p>&copy; 2024 Your Name</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
