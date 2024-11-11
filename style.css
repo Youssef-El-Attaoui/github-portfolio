@@ -336,7 +336,7 @@ section{
     justify-content: space-around; */
 }
 
-article{
+/* article{
     display: flex;
     width: 10rem;
     justify-content: space-around;
@@ -345,4 +345,4 @@ article{
 
 article .icon{
     cursor: default;
-} 
+}  */
