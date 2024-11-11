@@ -282,19 +282,13 @@ section{
     border-radius: 2rem;
 }
 
-.arrow{
+/*.arrow{
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
-}
+}*/
 
 .details-container{
-    padding: 1.5rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53);
-    border-color: rgb(63, 63, 63);
     text-align: center;
 }
 
