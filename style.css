@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
-    background-color: beige;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -301,4 +301,10 @@ section{
 .section-container{
     gap: 4rem;
     height: 80%;
+}
+
+.section__pic-container{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
 }
