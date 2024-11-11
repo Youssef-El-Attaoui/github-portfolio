@@ -289,6 +289,11 @@ section{
 }*/
 
 .details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border: solid rgb(53, 53, 53) 1px;
+    border-radius: 2rem;
     text-align: center;
 }
 
