@@ -48,7 +48,7 @@
             <h1 class="title">Youssef El Attaoui</h1>
             <p class="section__text__p2">FullStack Developer & Cybersecurity Student</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/CV ATS - EL ATTAOUI YOUSSEF ALT.pdf')">
+                <button class="btn btn-color-2" onclick="openCV()">
                     Download CV
                 </button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact' "> Contact Info
@@ -285,6 +285,21 @@
         <p>Copyright &#169; 2024 Youssef El Attaoui. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
+
+    <div id="cv-overlay" class="cv-overlay">
+  <div class="cv-content">
+    
+    <!-- Bouton fermer -->
+    <span class="close-btn" onclick="closeCV()">&times</span>
+
+    <!-- CV -->
+    <iframe 
+      src="./assets/CV ATS - EL ATTAOUI YOUSSEF ALT.pdf"
+      frameborder="0">
+    </iframe>
+
+  </div>
+</div>
 </body>
 
 </html>
