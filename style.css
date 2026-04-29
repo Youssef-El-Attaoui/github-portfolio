@@ -306,11 +306,11 @@ section {
     text-align: center;
 }
 
-.details-container.color-container {
+/*.details-container.color-container {
   width: calc(33.33% - 1rem);
   flex: 0 0 calc(33.33% - 1rem);
   box-sizing: border-box;
-}
+}*/
 
 .project-img {
   width: 100%;
@@ -377,6 +377,12 @@ article .icon {
     height: auto;
     min-height: 96vh;
     padding-bottom: 4rem;
+}
+
+#projects .about-containers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
 
 .color-container {
