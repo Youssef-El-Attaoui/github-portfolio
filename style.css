@@ -327,14 +327,15 @@ section {
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
+    gap: 1.5rem;
+    justify-content: flex-start;   /* ← plus de space-around */
 }
 
 article {
     display: flex;
-    width: 10rem;
-    justify-content: space-around;
+    width: calc(50% - 0.75rem);    /* ← toujours 2 colonnes exactes */
+    align-items: flex-start;        /* ← aligne en haut même si texte long */
+    justify-content: flex-start;    /* ← aligne à gauche */
     gap: 0.5rem;
 }
 
